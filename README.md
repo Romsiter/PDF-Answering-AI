@@ -13,22 +13,24 @@ Before running the project, you need to download and extract some required files
 2. Clone this repository or download it to your local machine.
 
 3. Navigate to the project directory:
-   '''
+   ```
    cd path/to/PDF-Answering-AI
-   '''
+   ```
+
 
 4. Extract the downloaded zip file into the project directory:
-   '''
+   ```
    unzip path/to/downloaded_file.zip -d .
-   '''
+   ```
 Note: Replace `path/to/downloaded_file.zip` with the actual path to your downloaded zip file.
 
 ## Usage
 
 To run the application, use the following command: 
-'''
+```
 streamlit run main.py
-'''
+```
+
 
 This will start the Streamlit server and open the application in your default web browser.
 
