@@ -121,7 +121,7 @@ but2 = st.button('Get Context for Answering')
 if 'context' not in st.session_state:
     st.session_state.context = ""
 if but1:
-    knn = NearestNeighbors(n_neighbors=5, algorithm='ball_tree')
+    knn = NearestNeighbors(n_neighbors=min(5,len(st.session_state.chunks[0])), algorithm='ball_tree')
     knn.fit(st.session_state.chunk_embeddings[0])
     retrieved_chunks = retrieve_chunks(knn, infersent_model, query, st.session_state.chunks[0])
     response = formulate_response(query, retrieved_chunks)
@@ -137,7 +137,7 @@ if but1:
     st.write("Answer:", result['answer']) 
 
 if but2:
-    st.write(f'''Contexts for Answering (Top 5 chunks)
+    st.write(f'''Contexts for Answering (Top {min(5,len(st.session_state.chunks[0]))} chunks)
     
              {st.session_state.context}
              
