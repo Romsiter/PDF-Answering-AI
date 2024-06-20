@@ -25,6 +25,10 @@ Before running the project, you need to download and extract some required files
 Note: Replace `path/to/downloaded_file.zip` with the actual path to your downloaded zip file.
 
 ## Usage
+Download the required packages through following command:
+```
+pip install -r requirements.txt
+```
 
 To run the application, use the following command: 
 ```
