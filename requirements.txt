@@ -1,0 +1,5 @@
+sentence_transformers
+transformers
+PyPDF2
+nltk
+gensim
