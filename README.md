@@ -53,4 +53,6 @@ PDF-Answering-AI/
 
 Ensure that the extracted folder is placed directly in the project directory.
 
+
   
+## Note: InfereSent is a package which is used to create Sentence Embeddings and I have included it in the repository itself so no need to download it.
