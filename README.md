@@ -8,17 +8,19 @@ Before running the project, you need to download and extract some required files
 
 ## Installation
 
-1. Download the required folders from [this Google Drive link](https://drive.google.com/file/d/1s0yEyZ9sQjTNsPQdta5_dE1fNABiV-xh/view?usp=sharing).
+1. Download the required folders from
+   i. (https://drive.google.com/file/d/1s0yEyZ9sQjTNsPQdta5_dE1fNABiV-xh/view?usp=sharing).
+   ii. (https://drive.google.com/file/d/1v_XSr8ueSuAGAtahEpftnATrODMP1vaK/view?usp=sharing).
 
-2. Clone this repository or download it to your local machine.
+3. Clone this repository or download it to your local machine.
 
-3. Navigate to the project directory:
+4. Navigate to the project directory:
    ```
    cd path/to/PDF-Answering-AI
    ```
 
 
-4. Extract the downloaded zip file into the project directory:
+5. Extract the downloaded zip file into the project directory:
    ```
    unzip path/to/downloaded_file.zip -d .
    ```
