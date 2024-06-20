@@ -8,8 +8,8 @@ Before running the project, you need to download and extract some required files
 
 ## Installation
 
-1. Download the required folders from
-   i. (https://drive.google.com/file/d/1s0yEyZ9sQjTNsPQdta5_dE1fNABiV-xh/view?usp=sharing).
+1. Download the required folders from /n
+   i. (https://drive.google.com/file/d/1s0yEyZ9sQjTNsPQdta5_dE1fNABiV-xh/view?usp=sharing). /n
    ii. (https://drive.google.com/file/d/1v_XSr8ueSuAGAtahEpftnATrODMP1vaK/view?usp=sharing).
 
 3. Clone this repository or download it to your local machine.
